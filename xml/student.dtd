@@ -1,0 +1,21 @@
+
+
+<!ELEMENT student_directory (student)+>
+
+<!ELEMENT student (FirstName,MiddleName,LastName,PrefName,StudentID,email,phone,year,GPA,major,minor,status,advisor,enroll_date,grad_date)>
+
+<!ELEMENT FirstName     (#PCDATA)>
+<!ELEMENT MiddleName    (#PCDATA)>
+<!ELEMENT LastName      (#PCDATA)>
+<!ELEMENT PrefName      (#PCDATA)>
+<!ELEMENT StudentID     (#PCDATA)>
+<!ELEMENT email         (#PCDATA)>
+<!ELEMENT phone         (#PCDATA)>
+<!ELEMENT year          (#PCDATA)>
+<!ELEMENT GPA           (#PCDATA)>
+<!ELEMENT major         (#PCDATA)>
+<!ELEMENT minor         (#PCDATA)>
+<!ELEMENT status        (#PCDATA)>
+<!ELEMENT advisor       (#PCDATA)>
+<!ELEMENT enroll_date   (#PCDATA)>
+<!ELEMENT grad_date     (#PCDATA)>
