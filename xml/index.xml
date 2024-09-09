@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/css" href="../css/style.css"?>
+<?xml-stylesheet type="text/css" href="../style.css"?>
 
-<!DOCTYPE students SYSTEM "../dtd/student.dtd" [
+<!DOCTYPE students SYSTEM "../student.dtd" [
   <!ENTITY student "">
 ]>
 
@@ -20,7 +20,7 @@
   <major>Music</major>
   <minor>English</minor>
   <status>full-time</status>
-  <advisor>Andy Summers</advsior>
+  <advisor>Andy Summers</advisor>
   <enroll_date>08-25-1969</enroll_date>
   <grad_date>05-01-1973</grad_date>
 </student>
@@ -38,7 +38,7 @@
   <major>Philosophy</major>
   <minor>Music</minor>
   <status>full-time</status>
-  <advisor>Chris Cornell</advsior>
+  <advisor>Chris Cornell</advisor>
   <enroll_date>08-25-1978</enroll_date>
   <grad_date>05-01-1982</grad_date>
 </student>
@@ -56,7 +56,7 @@
   <major>Music</major>
   <minor>Criminal Justice</minor>
   <status>part-time</status>
-  <advisor>Axl Rose</advsior>
+  <advisor>Axl Rose</advisor>
   <enroll_date>08-25-1983</enroll_date>
   <grad_date>05-01-1987</grad_date>
 </student>
@@ -74,7 +74,7 @@
   <major>Political Science</major>
   <minor>Law</minor>
   <status>full-time</status>
-  <advisor>Jenny Lee Lindberg</advsior>
+  <advisor>Jenny Lee Lindberg</advisor>
   <enroll_date>08-25-1998</enroll_date>
   <grad_date>05-01-2002</grad_date>
 </student>
@@ -92,7 +92,7 @@
   <major>Business Management</major>
   <minor>Math</minor>
   <status>full-time</status>
-  <advisor>Jerry Centrell</advsior>
+  <advisor>Jerry Centrell</advisor>
   <enroll_date>08-25-1984</enroll_date>
   <grad_date>05-01-1988</grad_date>
 </student>

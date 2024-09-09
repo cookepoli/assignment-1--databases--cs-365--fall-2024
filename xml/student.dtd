@@ -11,11 +11,18 @@
 <!ELEMENT StudentID     (#PCDATA)>
 <!ELEMENT email         (#PCDATA)>
 <!ELEMENT phone         (#PCDATA)>
-<!ELEMENT year          (#PCDATA)>
+<!ELEMENT year          EMPTY>
 <!ELEMENT GPA           (#PCDATA)>
 <!ELEMENT major         (#PCDATA)>
 <!ELEMENT minor         (#PCDATA)>
-<!ELEMENT status        (#PCDATA)>
+<!ELEMENT status        EMPTY>
 <!ELEMENT advisor       (#PCDATA)>
 <!ELEMENT enroll_date   (#PCDATA)>
 <!ELEMENT grad_date     (#PCDATA)>
+
+
+<!ATTLIST year
+          y (First Year|Second Year|Third Year|Fourth Year|Non-Traditional) #REQUIRED>
+
+<!ATTLIST status
+          s (full-time|part-time|graduated|withdrawn) #REQUIRED>
