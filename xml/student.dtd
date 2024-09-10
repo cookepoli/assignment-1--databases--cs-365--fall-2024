@@ -1,6 +1,6 @@
 
 
-<!ELEMENT student_directory (student)>
+<!ELEMENT student_directory (student)+>
 
 <!ELEMENT student (FirstName,MiddleName,LastName,PrefName,StudentID,email,phone,year,GPA,major,minor,status,advisor,enroll_date,grad_date)>
 
@@ -22,7 +22,7 @@
 
 
 <!ATTLIST year
-          y (First Year|Second Year|Third Year|Fourth Year|Non-Traditional) #REQUIRED>
+          y (First-Year|Second-Year|Third-Year|Fourth-Year|Non-Traditional) #REQUIRED>
 
 <!ATTLIST status
           s (full-time|part-time|graduated|withdrawn) #REQUIRED>

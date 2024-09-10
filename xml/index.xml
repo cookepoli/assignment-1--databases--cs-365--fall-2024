@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
 
-<!DOCTYPE students SYSTEM "student.dtd" >
+<!DOCTYPE student_directory SYSTEM "student.dtd" >
 
 <student_directory>
 
@@ -13,7 +13,7 @@
   <StudentID>1234567</StudentID>
   <email>sting@thepolice.com</email>
   <phone>212.123.4567</phone>
-  <year y="First Year"/>
+  <year y="First-Year"/>
   <GPA>4.0</GPA>
   <major>Music</major>
   <minor>English</minor>
@@ -31,7 +31,7 @@
   <StudentID>4567890</StudentID>
   <email>kim@soundgarden.com</email>
   <phone>206.123.4567</phone>
-  <year y="Second Year"/>
+  <year y="Second-Year"/>
   <GPA>3.0</GPA>
   <major>Philosophy</major>
   <minor>Music</minor>
@@ -49,7 +49,7 @@
   <StudentID>8302438</StudentID>
   <email>slash@gnr.com</email>
   <phone>213.456.8392</phone>
-  <year y="Fourth Year"/>
+  <year y="Fourth-Year"/>
   <GPA>2.0</GPA>
   <major>Music</major>
   <minor>Criminal Justice</minor>
@@ -67,7 +67,7 @@
   <StudentID>2983928</StudentID>
   <email>emily@warpaint.com</email>
   <phone>213.123.7654</phone>
-  <year y="Third Year"/>
+  <year y="Third-Year"/>
   <GPA>3.8</GPA>
   <major>Political Science</major>
   <minor>Law</minor>
@@ -85,7 +85,7 @@
   <StudentID>7645726</StudentID>
   <email>mike@aic.com</email>
   <phone>213.444.3323</phone>
-  <year y ="Second Year"/>
+  <year y ="Second-Year"/>
   <GPA>4.0</GPA>
   <major>Business Management</major>
   <minor>Math</minor>
