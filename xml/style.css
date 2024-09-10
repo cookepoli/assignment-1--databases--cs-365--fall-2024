@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
+
+:root,
+:root::before,
+student_directory,
+student_directory::before,
+student{
+  display: block;
+}
+
+:root {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif
+}
+
+:root::before {
+  content: 'Student Directory';
+  text-align: 'center';
+  font-size: 2.5rem;
+  margin: 24px 0;
+  border-bottom: 1px solid #888;
+}
+
+student::before{
+  display none;
+}
+
+FirstName{
+  font-weight: bold;
+}
+
+MiddleName{
+  font-weight: bold;
+}
+
+LastName{
+  font-weight: bold;
+
+}
+
+PrefName{
+  font-weight: bold;
+}
+
+PrefName::before{
+  content: "'";
+}
+
+PrefName::after{
+  content:"':";
+}
+
+StudentID{
+  display: block;
+  text-indent: 2rem;
+  border-top: 1px solid #888;
+}
+
+StudentID::before{
+  content:"Student ID: ";
+}
+
+email{
+  display: block;
+  text-indent: 2rem;
+}
+
+email::before{
+  content:"Email: ";
+}
+
+phone{
+  display: block;
+  text-indent: 2rem;
+}
+
+phone::before{
+  content:"Phone Number: ";
+}
+
+year{
+  display: block;
+  text-indent: 2rem;
+}
+
+year::before{
+  content: 'Year: ' attr(y) '';
+}
+
+GPA{
+  display: block;
+  text-indent: 2rem;
+}
+
+GPA::before{
+  content: "Grade Point Average: ";
+}
+
+major{
+  display: block;
+  text-indent: 2rem;
+}
+
+major::before{
+  content: "Major: ";
+}
+
+minor{
+  display: block;
+  text-indent: 4rem;
+}
+
+minor::before{
+  content: "Minor: ";
+}
+
+advisor{
+  display: block;
+  text-indent: 2rem;
+}
+
+status{
+  display: block;
+  text-indent: 2rem;
+}
+
+status::before{
+  content: 'Enrollment Status: ' attr(s) '';
+}
+
+advisor::before{
+  content:"Academic Advisor: ";
+}
+
+enroll_date{
+  display: block;
+  text-indent: 2rem;
+
+}
+
+enroll_date::before{
+  content: "Date of Enrollment: ";
+}
+
+grad_date{
+  display: block;
+  text-indent: 2rem;
+
+}
+
+grad_date::before{
+  content: "Graduation Date: ";
+
+}

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/css" href="../style.css"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
 
-<!DOCTYPE students SYSTEM "../student.dtd" [
-  <!ENTITY student "">
-]>
+<!DOCTYPE students SYSTEM "student.dtd" >
 
 <student_directory>
 
@@ -15,11 +13,11 @@
   <StudentID>1234567</StudentID>
   <email>sting@thepolice.com</email>
   <phone>212.123.4567</phone>
-  <year>first year</year>
+  <year y="First Year"/>
   <GPA>4.0</GPA>
   <major>Music</major>
   <minor>English</minor>
-  <status>full-time</status>
+  <status s="full-time"/>
   <advisor>Andy Summers</advisor>
   <enroll_date>08-25-1969</enroll_date>
   <grad_date>05-01-1973</grad_date>
@@ -33,11 +31,11 @@
   <StudentID>4567890</StudentID>
   <email>kim@soundgarden.com</email>
   <phone>206.123.4567</phone>
-  <year>second year</year>
+  <year y="Second Year"/>
   <GPA>3.0</GPA>
   <major>Philosophy</major>
   <minor>Music</minor>
-  <status>full-time</status>
+  <status s="full-time"/>
   <advisor>Chris Cornell</advisor>
   <enroll_date>08-25-1978</enroll_date>
   <grad_date>05-01-1982</grad_date>
@@ -51,11 +49,11 @@
   <StudentID>8302438</StudentID>
   <email>slash@gnr.com</email>
   <phone>213.456.8392</phone>
-  <year>fourth year</year>
+  <year y="Fourth Year"/>
   <GPA>2.0</GPA>
   <major>Music</major>
   <minor>Criminal Justice</minor>
-  <status>part-time</status>
+  <status s="part-time"/>
   <advisor>Axl Rose</advisor>
   <enroll_date>08-25-1983</enroll_date>
   <grad_date>05-01-1987</grad_date>
@@ -69,11 +67,11 @@
   <StudentID>2983928</StudentID>
   <email>emily@warpaint.com</email>
   <phone>213.123.7654</phone>
-  <year>third year</year>
+  <year y="Third Year"/>
   <GPA>3.8</GPA>
   <major>Political Science</major>
   <minor>Law</minor>
-  <status>full-time</status>
+  <status s="full-time"/>
   <advisor>Jenny Lee Lindberg</advisor>
   <enroll_date>08-25-1998</enroll_date>
   <grad_date>05-01-2002</grad_date>
@@ -87,11 +85,11 @@
   <StudentID>7645726</StudentID>
   <email>mike@aic.com</email>
   <phone>213.444.3323</phone>
-  <year>second year</year>
+  <year y ="Second Year"/>
   <GPA>4.0</GPA>
   <major>Business Management</major>
   <minor>Math</minor>
-  <status>full-time</status>
+  <status s="full-time"/>
   <advisor>Jerry Centrell</advisor>
   <enroll_date>08-25-1984</enroll_date>
   <grad_date>05-01-1988</grad_date>
