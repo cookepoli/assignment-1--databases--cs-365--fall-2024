@@ -23,7 +23,7 @@ student{
 }
 
 student::before{
-  display none;
+  display: none;
 }
 
 FirstName{
@@ -151,5 +151,4 @@ grad_date{
 
 grad_date::before{
   content: "Graduation Date: ";
-
 }

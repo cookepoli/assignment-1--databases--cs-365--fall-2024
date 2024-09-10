@@ -1,6 +1,6 @@
 
 
-<!ELEMENT student_directory (student)+>
+<!ELEMENT student_directory (student)>
 
 <!ELEMENT student (FirstName,MiddleName,LastName,PrefName,StudentID,email,phone,year,GPA,major,minor,status,advisor,enroll_date,grad_date)>
 
