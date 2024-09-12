@@ -28,19 +28,22 @@ student::before{
 
 FirstName{
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 MiddleName{
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 LastName{
   font-weight: bold;
-
+  font-size: 1.5rem;
 }
 
 PrefName{
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 PrefName::before{
@@ -51,10 +54,29 @@ PrefName::after{
   content:"':";
 }
 
+enrollment_info::before{
+  display: block;
+  content: "Enrollment Information:";
+  border-top: 1px solid #888;
+  font-weight: bold;
+}
+
+contact_info::before{
+  display: block;
+  content: "Contact Information:";
+  font-weight: bold;
+}
+
+department_info::before{
+  display: block;
+  content: "Department Information:";
+  font-weight: bold;
+}
+
 StudentID{
   display: block;
   text-indent: 2rem;
-  border-top: 1px solid #888;
+
 }
 
 StudentID::before{
@@ -118,6 +140,11 @@ minor::before{
 advisor{
   display: block;
   text-indent: 2rem;
+  padding-bottom: 2rem;
+}
+
+advisor::before{
+  content:"Academic Advisor: ";
 }
 
 status{
@@ -129,9 +156,8 @@ status::before{
   content: 'Enrollment Status: ' attr(s) '';
 }
 
-advisor::before{
-  content:"Academic Advisor: ";
-}
+
+
 
 enroll_date{
   display: block;

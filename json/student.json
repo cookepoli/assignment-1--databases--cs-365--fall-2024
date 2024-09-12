@@ -1,0 +1,115 @@
+{
+  "student-directory": [{
+    "student": [{
+      "first-name": "Gordon",
+      "middle-name": "Matthew",
+      "last-name": "Sumner",
+      "pref-name": "Sting",
+      "enrollment-info": {
+        "studentID": 1234567,
+        "year": "First-Year",
+        "status": "full-time",
+        "enrollment_date": "08-25-1965",
+        "graduation_date": "05-01-1973"
+      },
+      "contact-info": {
+        "email": "sting@thepolice.com",
+        "phone": "212.123.4567"
+      },
+      "department_info": {
+        "GPA": 4.0,
+        "major": "Music",
+        "minor": "English",
+        "advisor": "Andy Summers"
+      }
+    },{
+      "first-name": "Kim",
+      "middle-name": "",
+      "last-name": "Thayil",
+      "pref-name": "",
+      "enrollment-info": {
+        "studentID": 4567890,
+        "year": "Second-Year",
+        "status": "full-time",
+        "enrollment_date": "08-25-1978",
+        "graduation_date": "05-01-1982"
+      },
+      "contact-info": {
+        "email": "kim@soundgarden.com",
+        "phone": "206.123.4567"
+      },
+      "department_info": {
+        "GPA": 3.0,
+        "major": "Philosophy",
+        "minor": "Music",
+        "advisor": "Chris Cornell"
+      }
+    },{
+      "first-name": "Saul",
+      "middle-name": "",
+      "last-name": "Hudson",
+      "pref-name": "Slash",
+      "enrollment-info": {
+        "studentID": 8302438,
+        "year": "Fourth-Year",
+        "status": "part-time",
+        "enrollment_date": "08-25-1983",
+        "graduation_date": "05-01-1987"
+      },
+      "contact-info": {
+        "email": "slash@gnr.com",
+        "phone": "213.456.8392"
+      },
+      "department_info": {
+        "GPA": 2.0,
+        "major": "Music",
+        "minor": "Criminal Justice",
+        "advisor": "Axl Rose"
+      }
+    },{
+      "first-name": "Emily",
+      "middle-name": "",
+      "last-name": "Kokal",
+      "pref-name": "",
+      "enrollment-info": {
+        "studentID": 2983928,
+        "year": "Third-Year",
+        "status": "full-time",
+        "enrollment_date": "08-25-1998",
+        "graduation_date": "05-01-2002"
+      },
+      "contact-info": {
+        "email": "emily@warpaint.com",
+        "phone": "212.123.7654"
+      },
+      "department_info": {
+        "GPA": 3.8,
+        "major": "Political Science",
+        "minor": "Law",
+        "advisor": "Jenny Lee Lindberg"
+      }
+    },{
+      "first-name": "Mike",
+      "middle-name": "",
+      "last-name": "Inez",
+      "pref-name": "",
+      "enrollment-info": {
+        "studentID": 7645726,
+        "year": "Secocnd-Year",
+        "status": "full-time",
+        "enrollment_date": "08-25-1984",
+        "graduation_date": "05-01-1988"
+      },
+      "contact-info": {
+        "email": "mike@aic.com",
+        "phone": "213.444.3323"
+      },
+      "department_info": {
+        "GPA": 4.0,
+        "major": "Business Management",
+        "minor": "Math",
+        "advisor": "Jerry Cantrell"
+      }
+    }]
+  }]
+}

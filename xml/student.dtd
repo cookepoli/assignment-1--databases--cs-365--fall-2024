@@ -1,4 +1,4 @@
-  <!-- ==========================================================================
+<!-- ==========================================================================
   The Root Element: student_directory
 
   The student_directory (root) element must contain one or more student elements.
@@ -6,14 +6,34 @@
 
 <!ELEMENT student_directory (student)+>
 
-  <!-- ==========================================================================
+<!-- ==========================================================================
   The student container element must contain one FirstName, MiddleName, LastName,
   PrefName, StudentID, email, phone, year, GPA, major, minor, status, advisor,
   enroll_date, and grad_date element.
   ===============================================================================-->
 <!ELEMENT student (FirstName,MiddleName,LastName,PrefName,StudentID,email,phone,year,GPA,major,minor,status,advisor,enroll_date,grad_date)>
 
-  <!-- =============================================================================
+<!-- ============================================================================
+  The enrollment_info element must contain information about the student's enrollment status:
+  Their ID number, year, status, date of enrollment, and graduation date.
+  ===============================================================================-->
+
+<!ELEMENT enrollment_info (StudentID,year,status,enroll_date,grad_date)>
+
+<!-- ============================================================================
+  The contact_info element must contain the student's email and phone.
+  ===============================================================================-->
+
+<!ELEMENT contact_info (email,phone)>
+
+<!-- ============================================================================
+  The department_info element must contain information about the student's department:
+  Their GPA, major, minor, and academic advisor.
+  ===============================================================================-->
+
+<!ELEMENT department_info (GPA,major,minor,advisor)>
+
+<!-- =============================================================================
   The elements below all may contain parsed character data, except for the
   year and status elements which should be empty. These two elements use attributes
   instead of content.
@@ -35,12 +55,12 @@
 <!ELEMENT grad_date     (#PCDATA)>
 
 <!-- ==============================================================================
-Since year and status both have a restricted set of data that can they can contain,
-it is better to use an attribute since it can be better regulated.
+  Since year and status both have a restricted set of data that can they can contain,
+  it is better to use an attribute since it can be better regulated.
 
-The attribute used is "y" for year and "s" for status, and they both have the #REQUIRED
-tag meaning that the attribute cannot be omitted.
-=================================================================================-->
+  The attribute used is "y" for year and "s" for status, and they both have the #REQUIRED
+  tag meaning that the attribute cannot be omitted.
+  =================================================================================-->
 
 <!ATTLIST year
           y (First-Year|Second-Year|Third-Year|Fourth-Year|Non-Traditional) #REQUIRED>
