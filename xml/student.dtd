@@ -11,7 +11,7 @@
   PrefName, StudentID, email, phone, year, GPA, major, minor, status, advisor,
   enroll_date, and grad_date element.
   ===============================================================================-->
-<!ELEMENT student (FirstName,MiddleName,LastName,PrefName,StudentID,email,phone,year,GPA,major,minor,status,advisor,enroll_date,grad_date)>
+<!ELEMENT student (FirstName,MiddleName,LastName,PrefName,enrollment_info, contact_info, department_info)>
 
 <!-- ============================================================================
   The enrollment_info element must contain information about the student's enrollment status:
@@ -38,6 +38,7 @@
   year and status elements which should be empty. These two elements use attributes
   instead of content.
   ===============================================================================-->
+
 <!ELEMENT FirstName     (#PCDATA)>
 <!ELEMENT MiddleName    (#PCDATA)>
 <!ELEMENT LastName      (#PCDATA)>
