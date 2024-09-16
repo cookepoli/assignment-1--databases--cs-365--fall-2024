@@ -11,6 +11,7 @@
   PrefName, StudentID, email, phone, year, GPA, major, minor, status, advisor,
   enroll_date, and grad_date element.
   ===============================================================================-->
+
 <!ELEMENT student (FirstName,MiddleName,LastName,PrefName,enrollment_info, contact_info, department_info)>
 
 <!-- ============================================================================
