@@ -29,10 +29,11 @@
 
 <!-- ============================================================================
   The department_info element must contain information about the student's department:
-  Their GPA, major, minor, and academic advisor.
+  Their GPA, major, minor, and academic advisor. Each student must have at least one
+  major (but can have more), and may have 0 or more minors.
   ===============================================================================-->
 
-<!ELEMENT department_info (GPA,major,minor,advisor)>
+<!ELEMENT department_info (GPA,major+,minor*,advisor)>
 
 <!-- =============================================================================
   The elements below all may contain parsed character data, except for the
@@ -40,21 +41,21 @@
   instead of content.
   ===============================================================================-->
 
-<!ELEMENT FirstName     (#PCDATA)>
-<!ELEMENT MiddleName    (#PCDATA)>
-<!ELEMENT LastName      (#PCDATA)>
-<!ELEMENT PrefName      (#PCDATA)>
-<!ELEMENT StudentID     (#PCDATA)>
-<!ELEMENT email         (#PCDATA)>
-<!ELEMENT phone         (#PCDATA)>
-<!ELEMENT year          EMPTY>
-<!ELEMENT GPA           (#PCDATA)>
-<!ELEMENT major         (#PCDATA)>
-<!ELEMENT minor         (#PCDATA)>
-<!ELEMENT status        EMPTY>
-<!ELEMENT advisor       (#PCDATA)>
-<!ELEMENT enroll_date   (#PCDATA)>
-<!ELEMENT grad_date     (#PCDATA)>
+<!ELEMENT FirstName     (#PCDATA)>    <!-- FirstName element must be empty or contain parsed character data.-->
+<!ELEMENT MiddleName    (#PCDATA)>    <!-- MiddleName element must be empty or contain parsed character data.-->
+<!ELEMENT LastName      (#PCDATA)>    <!-- LastName element must be empty or contain parsed character data.-->
+<!ELEMENT PrefName      (#PCDATA)>    <!-- PrefName element must be empty or contain parsed character data.-->
+<!ELEMENT StudentID     (#PCDATA)>    <!-- StudentID element must be empty or contain parsed character data.-->
+<!ELEMENT email         (#PCDATA)>    <!-- email element must be empty or contain parsed character data.-->
+<!ELEMENT phone         (#PCDATA)>    <!-- phone element must be empty or contain parsed character data.-->
+<!ELEMENT year          EMPTY>        <!-- year element must be empty. It uses an attribute to store information.-->
+<!ELEMENT GPA           (#PCDATA)>    <!-- GPA element must be empty or contain parsed character data.-->
+<!ELEMENT major         (#PCDATA)>    <!-- major element must be empty or contain parsed character data.-->
+<!ELEMENT minor         (#PCDATA)>    <!-- minor element must be empty or contain parsed character data.-->
+<!ELEMENT status        EMPTY>        <!-- status element must be empty. It uses an attribute to store information.-->
+<!ELEMENT advisor       (#PCDATA)>    <!-- advisor element must be empty or contain parsed character data.-->
+<!ELEMENT enroll_date   (#PCDATA)>    <!-- enroll_date element must be empty or contain parsed character data.-->
+<!ELEMENT grad_date     (#PCDATA)>    <!-- grad_date element must be empty or contain parsed character data.-->
 
 <!-- ==============================================================================
   Since year and status both have a restricted set of data that can they can contain,
@@ -62,6 +63,8 @@
 
   The attribute used is "y" for year and "s" for status, and they both have the #REQUIRED
   tag meaning that the attribute cannot be omitted.
+
+  Student has an attribute "number" used to denote the index of the student in the database.
   =================================================================================-->
 
 <!ATTLIST year
@@ -69,3 +72,6 @@
 
 <!ATTLIST status
           s (full-time|part-time|graduated|withdrawn) #REQUIRED>
+
+<!ATTLIST student
+          number CDATA # REQUIRED>

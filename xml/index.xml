@@ -5,7 +5,7 @@
 
 <student_directory>
 
-<student>
+<student number = "1">
   <FirstName>Gordon</FirstName>
   <MiddleName>Matthew</MiddleName>
   <LastName>Sumner</LastName>
@@ -30,7 +30,7 @@
 
 </student>
 
-<student>
+<student number = "2">
   <FirstName>Kim</FirstName>
   <MiddleName/>
   <LastName>Thayil</LastName>
@@ -54,7 +54,7 @@
   </department_info>
 </student>
 
-<student>
+<student number = "3">
   <FirstName>Saul</FirstName>
   <MiddleName/>
   <LastName>Hudson</LastName>
@@ -78,7 +78,7 @@
   </department_info>
 </student>
 
-<student>
+<student number = "4">
   <FirstName>Emily</FirstName>
   <MiddleName/>
   <LastName>Kokal</LastName>
@@ -102,7 +102,7 @@
   </department_info>
 </student>
 
-<student>
+<student number = "5">
   <FirstName>Mike</FirstName>
   <MiddleName/>
   <LastName>Inez</LastName>
