@@ -74,4 +74,4 @@
           s (full-time|part-time|graduated|withdrawn) #REQUIRED>
 
 <!ATTLIST student
-          number CDATA # REQUIRED>
+          number CDATA #REQUIRED>
