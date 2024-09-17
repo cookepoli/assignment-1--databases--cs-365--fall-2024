@@ -63,6 +63,12 @@ enrollment_info::before{
   font-weight: bold;
 }
 
+enrollment_info::after{
+  display: block;
+  text-indent: 2rem;
+  content: "Year: " attr(year)  " Status: " attr(status);
+}
+
 contact_info::before{
   display: block;
   content: "Contact Information:";

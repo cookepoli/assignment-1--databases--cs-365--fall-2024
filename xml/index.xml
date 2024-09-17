@@ -10,10 +10,8 @@
   <MiddleName>Matthew</MiddleName>
   <LastName>Sumner</LastName>
   <PrefName>Sting</PrefName>
-  <enrollment_info>
+  <enrollment_info year = "First-Year" status = "full-time">
     <StudentID>1234567</StudentID>
-    <year y="First-Year"/>
-    <status s="full-time"/>
     <enroll_date>08-25-1969</enroll_date>
     <grad_date>05-01-1973</grad_date>
   </enrollment_info>
@@ -35,10 +33,8 @@
   <MiddleName/>
   <LastName>Thayil</LastName>
   <PrefName/>
-  <enrollment_info>
+  <enrollment_info year = "Second-Year" status = "full-time">
     <StudentID>4567890</StudentID>
-    <year y="Second-Year"/>
-    <status s="full-time"/>
     <enroll_date>08-25-1978</enroll_date>
     <grad_date>05-01-1982</grad_date>
   </enrollment_info>
@@ -59,10 +55,8 @@
   <MiddleName/>
   <LastName>Hudson</LastName>
   <PrefName>Slash</PrefName>
-  <enrollment_info>
+  <enrollment_info year = "Fourth-Year" status = "part-time">
     <StudentID>8302438</StudentID>
-    <year y="Fourth-Year"/>
-    <status s="part-time"/>
     <enroll_date>08-25-1983</enroll_date>
     <grad_date>05-01-1987</grad_date>
   </enrollment_info>
@@ -83,10 +77,8 @@
   <MiddleName/>
   <LastName>Kokal</LastName>
   <PrefName/>
-  <enrollment_info>
+  <enrollment_info year = "Third-Year" status = "full-time">
     <StudentID>2983928</StudentID>
-    <year y="Third-Year"/>
-    <status s="full-time"/>
     <enroll_date>08-25-1998</enroll_date>
     <grad_date>05-01-2002</grad_date>
   </enrollment_info>
@@ -107,10 +99,8 @@
   <MiddleName/>
   <LastName>Inez</LastName>
   <PrefName/>
-  <enrollment_info>
+  <enrollment_info year = "Second-Year" status = "full-time">
     <StudentID>7645726</StudentID>
-    <year y ="Second-Year"/>
-    <status s="full-time"/>
     <enroll_date>08-25-1984</enroll_date>
     <grad_date>05-01-1988</grad_date>
   </enrollment_info>

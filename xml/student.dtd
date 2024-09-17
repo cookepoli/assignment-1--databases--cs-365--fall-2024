@@ -19,7 +19,7 @@
   Their ID number, year, status, date of enrollment, and graduation date.
   ===============================================================================-->
 
-<!ELEMENT enrollment_info (StudentID,year,status,enroll_date,grad_date)>
+<!ELEMENT enrollment_info (StudentID,enroll_date,grad_date)>
 
 <!-- ============================================================================
   The contact_info element must contain the student's email and phone.
@@ -48,18 +48,17 @@
 <!ELEMENT StudentID     (#PCDATA)>    <!-- StudentID element must be empty or contain parsed character data.-->
 <!ELEMENT email         (#PCDATA)>    <!-- email element must be empty or contain parsed character data.-->
 <!ELEMENT phone         (#PCDATA)>    <!-- phone element must be empty or contain parsed character data.-->
-<!ELEMENT year          EMPTY>        <!-- year element must be empty. It uses an attribute to store information.-->
 <!ELEMENT GPA           (#PCDATA)>    <!-- GPA element must be empty or contain parsed character data.-->
 <!ELEMENT major         (#PCDATA)>    <!-- major element must be empty or contain parsed character data.-->
 <!ELEMENT minor         (#PCDATA)>    <!-- minor element must be empty or contain parsed character data.-->
-<!ELEMENT status        EMPTY>        <!-- status element must be empty. It uses an attribute to store information.-->
 <!ELEMENT advisor       (#PCDATA)>    <!-- advisor element must be empty or contain parsed character data.-->
 <!ELEMENT enroll_date   (#PCDATA)>    <!-- enroll_date element must be empty or contain parsed character data.-->
 <!ELEMENT grad_date     (#PCDATA)>    <!-- grad_date element must be empty or contain parsed character data.-->
 
 <!-- ==============================================================================
-  Since year and status both have a restricted set of data that can they can contain,
-  it is better to use an attribute since it can be better regulated.
+  Since the year and status attirbutes both have a restricted set of data that can they can contain,
+  it is better to use an attribute within enrollment_information since it can be better regulated.
+  (As opposed to an element)
 
   The attribute used is "y" for year and "s" for status, and they both have the #REQUIRED
   tag meaning that the attribute cannot be omitted.
@@ -68,11 +67,11 @@
   This attribute must be present.
   =================================================================================-->
 
-<!ATTLIST year
-          y (First-Year|Second-Year|Third-Year|Fourth-Year|Non-Traditional) #REQUIRED>
+<!ATTLIST enrollment_info
+          year (First-Year|Second-Year|Third-Year|Fourth-Year|Non-Traditional) #REQUIRED>
 
-<!ATTLIST status
-          s (full-time|part-time|graduated|withdrawn) #REQUIRED>
+<!ATTLIST enrollment_info
+          status (full-time|part-time|graduated|withdrawn) #REQUIRED>
 
 <!ATTLIST student
           number CDATA #REQUIRED>
