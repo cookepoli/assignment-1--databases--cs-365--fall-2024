@@ -65,6 +65,7 @@
   tag meaning that the attribute cannot be omitted.
 
   Student has an attribute "number" used to denote the index of the student in the database.
+  This attribute must be present.
   =================================================================================-->
 
 <!ATTLIST year
