@@ -55,16 +55,12 @@
 <!ELEMENT enroll_date   (#PCDATA)>    <!-- enroll_date element must be empty or contain parsed character data.-->
 <!ELEMENT grad_date     (#PCDATA)>    <!-- grad_date element must be empty or contain parsed character data.-->
 
+
 <!-- ==============================================================================
-  Since the year and status attirbutes both have a restricted set of data that can they can contain,
-  it is better to use an attribute within enrollment_information since it can be better regulated.
-  (As opposed to an element)
-
-  The attribute used is "y" for year and "s" for status, and they both have the #REQUIRED
-  tag meaning that the attribute cannot be omitted.
-
-  Student has an attribute "number" used to denote the index of the student in the database.
-  This attribute must be present.
+  The enrollment_info element contains two attributes used to store information about
+  the student's year and enrollment status. Attributes are used instead of elements
+  because the set of possible data contained is fixed. These
+  attributes are both required.
   =================================================================================-->
 
 <!ATTLIST enrollment_info
@@ -72,6 +68,13 @@
 
 <!ATTLIST enrollment_info
           status (full-time|part-time|graduated|withdrawn) #REQUIRED>
+
+<!-- ==============================================================================
+  The student element contains an attribute number that is required. This indicates
+  the index of the student in the database, with the first student having an index of 1.
+  This attribute is required for each student element. In this case, the tag
+  must be (unparsed) character data.
+  =================================================================================-->
 
 <!ATTLIST student
           number CDATA #REQUIRED>

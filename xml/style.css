@@ -65,8 +65,9 @@ enrollment_info::before{
 
 enrollment_info::after{
   display: block;
-  text-indent: 2rem;
-  content: "Year: " attr(year)  " Status: " attr(status);
+  white-space: pre;
+  content: "Year: " attr(year) "\a Status: " attr(status) ;
+  padding-left: 2rem;
 }
 
 contact_info::before{
