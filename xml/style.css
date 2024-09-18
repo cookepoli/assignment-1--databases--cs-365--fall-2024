@@ -84,7 +84,7 @@ department_info::before{
 
 StudentID{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 
 }
 
@@ -94,7 +94,7 @@ StudentID::before{
 
 email{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 }
 
 email::before{
@@ -103,25 +103,16 @@ email::before{
 
 phone{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 }
 
 phone::before{
   content:"Phone Number: ";
 }
 
-year{
-  display: block;
-  text-indent: 2rem;
-}
-
-year::before{
-  content: 'Year: ' attr(y) '';
-}
-
 GPA{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 }
 
 GPA::before{
@@ -130,7 +121,7 @@ GPA::before{
 
 major{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 }
 
 major::before{
@@ -139,7 +130,7 @@ major::before{
 
 minor{
   display: block;
-  text-indent: 4rem;
+  padding-left: 4rem;
 }
 
 minor::before{
@@ -148,7 +139,7 @@ minor::before{
 
 advisor{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -156,21 +147,9 @@ advisor::before{
   content:"Academic Advisor: ";
 }
 
-status{
-  display: block;
-  text-indent: 2rem;
-}
-
-status::before{
-  content: 'Enrollment Status: ' attr(s) '';
-}
-
-
-
-
 enroll_date{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 
 }
 
@@ -180,7 +159,7 @@ enroll_date::before{
 
 grad_date{
   display: block;
-  text-indent: 2rem;
+  padding-left: 2rem;
 
 }
 
